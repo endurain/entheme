@@ -1,3 +1,29 @@
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background: darkred;
+    left: 0;
+    top: 39px;
+    transition: 0.3s;
+    opacity: 0;
+  }
+
+  .test {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobileNavigation {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: none !important;
+  }
+}
+
 .banner .nav li {
   @extend .nav-item;
 }
