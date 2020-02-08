@@ -6,7 +6,6 @@
     left: 0;
     top: 39px;
     transition: 0.3s;
-    opacity: 0;
   }
 
   .test {
@@ -21,6 +20,15 @@
 
   .navbar-toggler {
     display: none !important;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+  }
+
+  .navbar {
+    justify-content: center;
   }
 }
 
