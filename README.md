@@ -1,5 +1,7 @@
 This theme uses MWDelaney's Nav Walker https://github.com/MWDelaney/sage-bootstrap4-navwalker
 
+Two separate menus are registered with this theme: Primary navigation (desktop Menu) and Mobile menu.
+
 
 
 * [WordPress](https://wordpress.org/) >= 4.7
