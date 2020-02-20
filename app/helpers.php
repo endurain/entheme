@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Roots\Sage\Config;
 use Roots\Sage\Container;
 
 /**
@@ -30,7 +31,7 @@ function sage($abstract = null, $parameters = [], Container $container = null)
  *
  * @param array|string $key
  * @param mixed $default
- * @return mixed|\Roots\Sage\Config
+ * @return mixed|Config
  * @copyright Taylor Otwell
  * @link https://github.com/laravel/framework/blob/c0970285/src/Illuminate/Foundation/helpers.php#L254-L265
  */

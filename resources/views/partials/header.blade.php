@@ -18,7 +18,6 @@ namespace App
          </span>
       </button>
     <!-- <a class="navbar-brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a> -->
-      <!-- this needs to be mobile menu & we need to create separate menu for med-large -->
       <div class="desktopMenu" id="navbarSupportedContent">
         @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu($primarymenu) !!}

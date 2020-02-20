@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\wp_bootstrap4_navwalker;
 use Sober\Controller\Controller;
 
 class App extends Controller
@@ -35,7 +36,7 @@ class App extends Controller
       $args = array(
         'theme_location'    => 'primary_navigation',
         'menu_class'        => 'navbar-nav',
-        'walker'            => new \App\wp_bootstrap4_navwalker(),
+        'walker'            => new wp_bootstrap4_navwalker(),
       );
       return $args;
     }
@@ -44,7 +45,7 @@ class App extends Controller
       $args = array(
         'theme_location'    => 'mobile_navigation',
         'menu_class'        => 'navbar-nav',
-        'walker'            => new \App\wp_bootstrap4_navwalker(),
+        'walker'            => new wp_bootstrap4_navwalker(),
       );
       return $args;
     }

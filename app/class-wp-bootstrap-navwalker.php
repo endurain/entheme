@@ -1,6 +1,8 @@
 <?php
 namespace App;
 
+use Walker_Nav_Menu;
+
 /**
  * Bootstrap 4 "Navbar" component navwalker drop-in functionality for Sage 9
  * Version: 1.0
@@ -19,7 +21,7 @@ namespace App;
  */
 
 if (class_exists('\Walker_Nav_Menu')) {
-    class wp_bootstrap4_navwalker extends \Walker_Nav_Menu
+    class wp_bootstrap4_navwalker extends Walker_Nav_Menu
     {
         /**
      * @see Walker::start_lvl()
